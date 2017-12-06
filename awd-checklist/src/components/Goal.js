@@ -15,7 +15,7 @@ const Goal = (props) => {
             <div className="jumbotron">
             <div className="tips">
               <span>Tips: {selectedGoal.tips}</span>
-              <button className="btn btn-lg checkoff-button" onClick={completeGoal.bind(null, selectedGoal)}> {isCompleted ? "Mark as Incomplete" : "Mark as Completed"} </button>
+              <button className="btn btn-lg checkoff-button" onClick={completeGoal.bind(null, selectedGoal)}> {isCompleted ? "Mark as Incomplete" : "Mark as Complete"} </button>
             </div>
             </div>
             </div>
